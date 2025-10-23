@@ -1,4 +1,5 @@
-
+html
+<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
@@ -51,7 +52,7 @@
   <section id="payment">
     <h2>Paiement sécurisé</h2>
     <p>Réglez votre forfait en toute sécurité via Stripe :</p>
-    <form action="https://buy.stripe.com/test_8x24gA05X1G862WgwZfQI00" method="GET">
+    <form action="https://checkout.stripe.com/pay/cs_test_1234567890" method="GET">
       <button type="submit">Payer le forfait</button>
     </form>
   </section>
